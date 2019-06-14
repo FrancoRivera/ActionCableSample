@@ -46,7 +46,7 @@ Rails.application.configure do
 
   config.action_cable.url = "ws://tendencias.eastus.cloudapp.azure.com/cable"
 
-  config.action_cable.allowed_request_origins = [/http:\/\/*/, /https:\/\/*/]
+  config.action_cable.allowed_request_origins = [/http:\/\/*/, /https:\/\/*/, /ws:\/\/tendencias.eastus.cloudapp.azure.com/]
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
